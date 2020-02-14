@@ -1,4 +1,5 @@
 export default {
+  MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
     REGION: 'us-west-1',
     BUCKET: 'serverless-notes-app-upload-tutorial'
@@ -14,3 +15,4 @@ export default {
     IDENTITY_POOL_ID: 'us-east-2:9185e791-01a3-49e5-a7d4-9f3c0eda1b99'
   }
 }
+
